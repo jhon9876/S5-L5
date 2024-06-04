@@ -2,6 +2,9 @@ body {
   max-width: 1300px;
 }
 nav {
+  width: 1300px;
+  position: fixed;
+  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -25,6 +28,8 @@ nav div img {
   border-radius: 20px;
 }
 header {
+  position: relative;
+  top: 100px;
   background-color: #ffc017;
   display: flex;
   justify-content: center;
@@ -45,6 +50,8 @@ header div button {
 }
 
 main {
+  position: relative;
+  top: 100px;
   margin-top: 50px;
   margin-left: 50px;
 }
